@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tinderで出会ってみた">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://yasu-works.github.io/test-up1/icons8.png">
+    <!-- タイトル名 -->
+    <title>カテゴリ名|Tinderで出会ってみた</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header id="header">
+        <div class="header-wrapper">
+            <div class="site-title">
+                <img class="icon" src="https://yasu-works.github.io/test-up1/icons8.png" alt="Tinder白アイコン">
+                <h1>Tinderで出会ってみた</h1>
+            </div>
+
+            <!-- ハンバーガーメニューボタン -->
+            <div id="toggle_btn" class="toggle_btn pc-toogle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div id="modal" class="modal-sp"></div>
+
+
+            <!-- PC用ハンバーガーメニュー -->
+            <nav>
+                <ul class="pc-navmenu">
+                    <li><a href="https://yasu-works.github.io/test-up1">ホーム</a></li>
+                    <li><a href="https://yasu-works.github.io/test-up1/archive.html">記事一覧</a></li>
+                    <li><a href="https://yasu-works.github.io/test-up1/terms-of-service.html">利用規約</a></li>
+                </ul>
+            </nav>
+
+            <!-- SP用ハンバーガーメニュー -->
+            <ul id="menu" class="menu-sp">
+                <li><a href="https://yasu-works.github.io/test-up1">ホーム</a></li>
+                <li><a href="https://yasu-works.github.io/test-up1/archive.html">記事一覧</a></li>
+                <li><a href="https://yasu-works.github.io/test-up1/terms-of-service.html">利用規約</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- コンテンツ部分のワッパー（横幅指定） -->
+        <div class="contents-wrapper">
+            <section class="archive-title category-bottom">
+                <!-- カテゴリタイトル：PC表示 -->
+                <div class="category-title-block-pc">
+                    <img class="category-title-img-pc" src="img/category-img-pc2.png" alt="メインビジュアルPC表示">
+                    <h2 class="category-title-pc">カテゴリ名</h2>
+                </div>
+
+                <!-- カテゴリタイトル：SP表示 -->
+                <div class="category-title-block-sp">
+                    <img class="category-title-img-sp" src="img/category-img-sp2.png" alt="メインビジュアルPC表示">
+                    <h2 class="category-title-sp">カテゴリ名</h2>
+                </div>
+            </section>
+
+            <!-- 最新記事コンテンツ -->
+            <section class="archive-new">
+                <div>
+                    <!-- ブログリスト -->
+                    <ul class="blog-list">
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img1.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img2.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img3.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img4.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img5.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img6.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img1.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img2.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img3.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img4.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img5.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                        <li class="blog-item">
+                            <a href="https://yasu-works.github.io/test-up1/blog.html">
+                                <img src="https://yasu-works.github.io/test-up1/archive-img6.png" alt="ブログイメージ画像">
+                                <h4>タイトルタイトル</h4>
+                            </a>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <a class="next-page" href="https://yasu-works.github.io/test-up1/blog.html">続きを見る</a>
+                        </li>
+                    </ul>
+                    <ul class="blog-page-link">
+                        <li><a href="">前のページ</a></li>
+                        <li><a href="">次のページ</a></li>
+                    </ul>
+                </div>
+            </section>
+
+
+
+            <!-- カテゴリ -->
+            <section class="category">
+                <div>
+                    <h3 class="section-title">カテゴリ<span class="title-border"></span></h3>
+                </div>
+                <div>
+                    <ul class="category-list">
+                        <a href="#">
+                            <li class="category-item category-img1">
+                                <p>カテゴリ名</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="category-item category-img2">
+                                <p>カテゴリ名</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="category-item category-img3">
+                                <p>カテゴリ名</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="category-item category-img4">
+                                <p>カテゴリ名</p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- フッター -->
+    <footer id="footer" class="footer-wrapper">
+        <nav class="footer-nav">
+            <ul class="footer-item">
+                <!-- ブログタイトル -->
+                <li class="footer-itemlist">
+                    <div class="footer-title">
+                        <img src="https://yasu-works.github.io/test-up1/icons8.png" alt="Tinder白アイコン">
+                        <h1>Tinderで<br>出会ってみた</h1>
+                    </div>
+                </li>
+                <div class="ft-flex">
+                    <!-- サイトマップ -->
+                    <div class="footer-columm-reverse">
+                        <li class="footer-itemlist ft-sitemap">
+                            <h3>SITE MAP</h3>
+                            <ul class="site-map">
+                                <a href="https://yasu-works.github.io/test-up1"><li>ホーム</li></a>
+                                <a href="https://yasu-works.github.io/test-up1/archive.html"><li>記事一覧</li></a>
+                                <a href="https://yasu-works.github.io/test-up1/blog.html"><li>ブログ</li></a>
+                                <a href="https://yasu-works.github.io/test-up1/terms-of-service.html"><li>利用規約</li></a>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="footer-columm-revers">
+                        <!-- フッター：プロフィール -->
+                        <li class="footer-itemlist ft-profile-center">
+                            <h4>PROFILE</h4>
+                            <img class="ft-pr-ic" src="https://yasu-works.github.io/test-up1/profile-img-sample.png" alt="プロフィール画像">
+                            <p class="ft-profile-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <h3 class="ft-link-text">LINK</h3>
+                            <!-- SNSアイコンリスト -->
+                            <ul class="sns-icon-list">
+                                <li><a href="#"><img src="https://yasu-works.github.io/test-up1/icons8-ツイッター-50.png" alt="Twitterアイコン"></a></li>
+                                <li><a href="#"><img src="https://yasu-works.github.io/test-up1/icons8-インスタグラム-50.png" alt="Instagramアイコン"></a></li>
+                                <li><a href="#"><img class="facebook-icon" src="https://yasu-works.github.io/test-up1/icons8-フェイスブック-64.png" alt="Facebookアイコン"></a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+        <p class="copyright">&copy;copy right</p>
+    </footer>
+    <script src="./hamburger.js"></script>
+</body>
+</html>
