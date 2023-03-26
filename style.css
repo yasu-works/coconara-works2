@@ -67,7 +67,7 @@ Header
     width: 25px;
 }
 
-.site-title {
+.site-title a {
     display: flex;
     align-items: center;
 }
