@@ -480,6 +480,7 @@ Blogページ
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    align-items: center;
 }
 
 .sidebar-blog {
