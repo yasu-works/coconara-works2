@@ -1,14 +1,24 @@
-var btn = document.getElementById("toggle_btn");
-var menu = document.getElementById("menu");
-var modal = document.getElementById("modal");
+$(function(){
+    /*=================================================
+    ハンバーガーメニュー
+    ===================================================*/
+    // ハンバーガーメニューのクリックイベント
+    $('#toggle_btn').on('click', function() {
+        if ($('#menu').hasClass('add-menu-sp')) {
+        $('#menu').removeClass('add-menu-sp');
+        $('#modal').removeClass('add-modal-sp');
+        $('#toggle_btn').removeClass('active-close-btn');
 
-btn.addEventListener("click",function() {
-    menu.classList.add("add-menu-sp");
-    modal.classList.add("add-modal-sp");
-})
+        } else {
+        $('#menu').addClass('add-menu-sp');
+        $('#modal').addClass('add-modal-sp');
+        $('#toggle_btn').addClass('active-close-btn');
+        }
+    });
 
-// モーダルがクリックされたらclassを削除 ※3
-modal.addEventListener("click",function(){
-    menu.classList.remove("add-menu-sp");
-    modal.classList.remove("add-modal-sp");
+    $('#modal').on('click', function() {
+        $('#modal').removeClass('add-modal-sp');
+        $('#menu').removeClass('add-menu-sp');
+    });
 });
+
