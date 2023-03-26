@@ -229,7 +229,7 @@ Footer
 mainvisual
 ------------------------------------ */
 .main-visual {
-    background-image: url(img/pexels-manu-mangalassery-1077469.jpg);
+    background-image: url(https://yasu-works.github.io/test-up1/pexels-manu-mangalassery-1077469.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -376,22 +376,22 @@ mainvisual
 }
 
 .category-img1 {
-    background-image: url(img/category-img1.png);
+    background-image: url(https://yasu-works.github.io/test-up1/category-img1.png);
     background-size: cover;
 }
 
 .category-img2 {
-    background-image: url(img/category-img2.png);
+    background-image: url(https://yasu-works.github.io/test-up1/category-img2.png);
     background-size: cover;
 }
 
 .category-img3 {
-    background-image: url(img/category-img3.png);
+    background-image: url(https://yasu-works.github.io/test-up1/category-img3.png);
     background-size: cover;
 }
 
 .category-img4 {
-    background-image: url(img/category-img4.png);
+    background-image: url(https://yasu-works.github.io/test-up1/category-img4.png);
     background-size: cover;
 }
 
