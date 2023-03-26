@@ -16,9 +16,11 @@ $(function(){
         }
     });
 
+    // ハンバーガーメニューを閉じるイベント
     $('#modal').on('click', function() {
         $('#modal').removeClass('add-modal-sp');
         $('#menu').removeClass('add-menu-sp');
+        $('#toggle_btn').removeClass('active-close-btn');
     });
 });
 
