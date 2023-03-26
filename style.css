@@ -38,7 +38,7 @@ Header
     letter-spacing: 1px;
 }
 
-#header div ul {
+.pc-navmenu {
     display: flex;
 }
 
@@ -70,6 +70,59 @@ Header
 
 .site-title h1 {
     padding-left: 10px;
+}
+
+#menu {
+    display: none;
+}
+
+/* ------------------------------------
+ハンバーガーボタン
+------------------------------------ */
+.toggle_btn span {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+/*
+1本目の線の位置を設定
+  */
+.toggle_btn span:nth-child(1) {
+    top: 24px;
+}
+/*
+2本目の線の位置を設定
+  */
+.toggle_btn span:nth-child(2) {
+    bottom: 22px;
+}
+/*
+3本目の線の位置を設定
+  */
+.toggle_btn span:nth-child(3) {
+    bottom: 33px;
+}
+/* PC時ハンバーガーメニュー非表示 */
+.pc-toogle {
+    display: none;
+}
+
+/* ------------------------------------
+モーダル
+------------------------------------ */
+/* ハンバーガーメニューを非表示 */
+.menu-sp {
+    display: none; 
+}
+
+ /* モーダルを非表示 */
+
+.modal-sp {
+    display: none;
 }
 
 
@@ -176,7 +229,7 @@ Footer
 mainvisual
 ------------------------------------ */
 .main-visual {
-    background-image: url(https://yasu-works.github.io/test-up1/pexels-manu-mangalassery-1077469.jpg);
+    background-image: url(img/pexels-manu-mangalassery-1077469.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -323,22 +376,22 @@ mainvisual
 }
 
 .category-img1 {
-    background-image: url(https://yasu-works.github.io/test-up1/category-img1.png);
+    background-image: url(img/category-img1.png);
     background-size: cover;
 }
 
 .category-img2 {
-    background-image: url(https://yasu-works.github.io/test-up1/category-img2.png);
+    background-image: url(img/category-img2.png);
     background-size: cover;
 }
 
 .category-img3 {
-    background-image: url(https://yasu-works.github.io/test-up1/category-img3.png);
+    background-image: url(img/category-img3.png);
     background-size: cover;
 }
 
 .category-img4 {
-    background-image: url(https://yasu-works.github.io/test-up1/category-img4.png);
+    background-image: url(img/category-img4.png);
     background-size: cover;
 }
 
@@ -453,6 +506,10 @@ Blogページ
     display: none;
 }
 
+.blog-item a h4 {
+    font-size: 1.175rem;
+}
+
 /* ------------------------------------
 利用規約ページ
 ------------------------------------ */
@@ -489,11 +546,23 @@ SP
     }
 
     .header-wrapper {
-        padding: 0 30px;
+        width: 90%;
+        padding: 0;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .toggle_btn {
+        padding-right: 30px;
+    }
+
+    .pc-toogle {
+        display: block;
     }
 
     .site-title {
-        margin: 0 auto;
+        justify-content: space-between;
+        padding-left: 10px;
     }
 
     .icon {
@@ -503,7 +572,7 @@ SP
 
     .site-title h1 {
         font-size: 1.075rem;
-        padding-left: 20px;
+        padding-left: 15px;
     }
 
     .contents-wrapper {
@@ -714,6 +783,45 @@ SP：利用規約
     .terms-block p {
         padding: 0 10px;
     }
+
+/* ----------------------------------------
+モーダルウィンドウ
+---------------------------------------- */
+ /* ハンバーガーメニュー */
+.add-menu-sp{
+    position: fixed; /* *1 */
+    top: 0;
+    right: 0;
+    background-color: #ffffffdd;
+    display: block !important; /* *3 */
+    width: 70%;
+    height: 100vh;
+    padding: 100px 0;
+    z-index: 2; /* ※2 */
+}
+
+.add-menu-sp li{
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu-sp li a {
+    font-size: 1.275rem!important;
+    color: #707070!important;
+}
+
+.add-modal-sp{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: block !important; 
+    background-color: #000000aa;
+    z-index: 1; 
+}
+
 }
 
 
